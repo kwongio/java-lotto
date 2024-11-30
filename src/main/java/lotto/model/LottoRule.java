@@ -41,6 +41,10 @@ public enum LottoRule {
         return number.stream().noneMatch(LottoRule::isRange);
     }
 
+    public static int getPurchaseQuantity(int money) {
+        return money / PRICE.value;
+    }
+
     public int getValue() {
         return value;
     }
