@@ -38,7 +38,7 @@ public enum LottoRule {
     }
 
     public static boolean isRange(List<Integer> number) {
-        return number.stream().noneMatch(LottoRule::isRange);
+        return number.stream().allMatch(LottoRule::isRange);
     }
 
     public static int getPurchaseQuantity(int money) {
