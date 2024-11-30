@@ -21,7 +21,7 @@ public class LottoService {
     }
 
     public void result(List<Lotto> lottos, List<Integer> winNumber, int bonusNumber) {
-
+        
 
     }
 }

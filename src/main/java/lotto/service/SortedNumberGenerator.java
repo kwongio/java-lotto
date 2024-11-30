@@ -9,6 +9,8 @@ import java.util.List;
 public class SortedNumberGenerator {
 
     public List<Integer> generate() {
-        return Randoms.pickUniqueNumbersInRange(LottoRule.BEGIN.getValue(), LottoRule.END.getValue(), LottoRule.SIZE.getValue());
+        return Randoms.pickUniqueNumbersInRange(LottoRule.BEGIN.getValue(), LottoRule.END.getValue(), LottoRule.SIZE.getValue()).stream()
+                .sorted()
+                .toList();
     }
 }
