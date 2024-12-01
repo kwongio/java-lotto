@@ -5,7 +5,7 @@ public enum ErrorMessage {
     LOTTO_MONEY_INPUT_ERROR("구매금액은 숫자로 입력해주세요"),
     LOTTO_SIZE_ERROR("로또 번호는 6개여야 합니다."),
     LOTTO_DUPLICATE_ERROR("로또 번호는 중복되지 않는 6자리 숫자입니다."),
-    LOTTO_RANGE_ERROR("로도 번호는 1에서 45사이입니다."),
+    LOTTO_RANGE_ERROR("로또 번호는 1에서 45사이입니다."),
 
     LOTTO_WIN_NUMBER_INPUT_ERROR("당첨 번호는 숫자로 입력해야합니다."),
     LOTTO_WIN_NUMBER_SIZE_ERROR("당첨 번호는 6개여야 합니다."),
